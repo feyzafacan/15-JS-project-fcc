@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    background-color: #d7cdef;
+}
+nav{
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 190px;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.nav-toggle{
+    font-size: 1.5rem;
+    color: #5B17FF;
+    background-color: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.nav-toggle:hover{
+    transform: rotate(90deg);
+}
+.logo{
+    height: 130px;
+}
+.links a{
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+}
+.links a:hover {
+    color: #5B17FF;
+    background-color: #d6caf1;
+    border-radius: 10px;
+}
+.social-icons{
+    display: none;
+}
+.links{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+.show-links{
+    height: 14rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (min-width: 800px) {
+    .nav-center {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .nav-header {
+      padding: 0;
+    }
+    .nav-toggle {
+      display: none;
+    }
+    .links {
+        height: auto;
+        display: flex;
+      }
+    .links a {
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+    .links a:hover {
+      padding: 0;
+      background: transparent;
+    }
+    .social-icons {
+      display: flex;
+      font-size: 1.2rem;
+    }
+    .social-icons a {
+      margin: 0 0.5rem;
+      color:#5B17FF;
+      transition: all 0.3s linear;
+    }
+    .social-icons a:hover {
+      color: #b6a5df;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
