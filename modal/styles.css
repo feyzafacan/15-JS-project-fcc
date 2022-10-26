@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(./360_F_305233591_U7DvegTtiIoP2CWNUpR5qxrFvqpjpYW9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header{
+    background-color: rgb(97, 125, 234);
+    width: 600px;
+    height: 270px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner h1{
+    padding-bottom: 50px;
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+}
+.modal-btn{
+    padding: 15px 25px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: none;
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    transition: .5s;
+}
+.modal-btn:hover{
+    color: white;
+    border: 2px solid white;
+    background-color:rgb(97, 125, 234);
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(133, 154, 240, 0.5) ;
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+    z-index: -10;
+}
+.open-modal{
+    visibility: visible;
+    z-index: 10;
+}
+.modal-container{
+  background: white;
+  border-radius: 20px;
+  width: 44vw;
+  height: 30vh;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: red;
+    cursor: pointer;
+  }
+.close-btn:hover {
+    color: red;
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
